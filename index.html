@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
+      <link rel="stylesheet" type="text/css" href="style.css"/>
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
       <!-- Do not add `script` tags-->
@@ -12,6 +13,40 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <h1>Browser Template</h1>
+      <h1>Anywhere But Kansas</h1>
+
+<p>
+Not sure where to go for lunch? Dorothy can help--Click her heels and see where they take you!</p>
+
+<!-- **** for heels picture
+<div class="heels">
+  <img src>
+<div>
+**** -->
+
+      <!-- Temporary auth, refactor will be handlebars -->
+
+
+<h1 data-id="" class="sign-up">Sign Up</h1>
+
+<form class="sign-up">
+  <fieldset>
+    <input type="email" name="credentials[email]" autocomplete="email" placeholder="Email" required>
+    <input type="text" name="credentials[username]" autocomplete="email" placeholder="Username" required>
+    <input type="password" name="credentials[password]" autocomplete="password" placeholder="Password" required>
+    <input type="password" name="credentials[password_confirmation]" autocomplete="password"  placeholder="Password Confirmation" required>
+    <input class="button" type="submit" value="Sign up!">
+  </fieldset>
+</form>
+</div>
+<!-- <h1 data-id="" class="add-restaurant">Add Restaurant</h1>
+    <form class="add-restaurant">
+      <fieldset>
+        <input type="text" name="restaurant[restaurant_name]" autocomplete="restaurant" placeholder="Restaurant Name" required>
+        <input type="text" name="restaurant[cuisine]" autocomplete="cuisine" placeholder="Cuisine" required>
+        <input class="button" type="submit" value="Add Restaurant">
+      </fieldset>
+    </form> -->
+
     </body>
 </html>
